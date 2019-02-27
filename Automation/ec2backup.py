@@ -1,5 +1,5 @@
-*/The ec2backup.py script will simply query all available EC2 instances that have the tag BackUp then create a backup AMI image for each one 
-while tagging them a with a RemoveOn tag with a value of 3 days into the future./*
+#########The ec2backup.py script will simply query all available EC2 instances that have the tag BackUp then create a backup AMI image for each one 
+#while tagging them a with a RemoveOn tag with a value of 3 days into the future.########
 
 from datetime import datetime, timedelta  
 import awsutils
